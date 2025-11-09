@@ -1,6 +1,6 @@
-# 💡 HelpSync
+# 💡 HelpHive
 
-HelpSync is a full-stack web application built with the **MERN (MongoDB, Express.js, React, Node.js)** stack.
+HelpHive is a full-stack web application built with the **MERN (MongoDB, Express.js, React, Node.js)** stack.
 It is designed to streamline help and support requests, allowing users to easily register, log in, and interact with support-related features.
 
 ---

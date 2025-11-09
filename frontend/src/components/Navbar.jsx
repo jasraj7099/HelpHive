@@ -65,7 +65,7 @@ const Navbar = () => {
             <h1 className="text-2xl font-bold text-white drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300">
               Help
               <span className="text-transparent bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-500 bg-clip-text">
-                Sync
+                Hive
               </span>
             </h1>
           </Link>

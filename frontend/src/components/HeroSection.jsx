@@ -35,14 +35,15 @@ const HeroSection = ({ onLearnMore }) => {
             <div>
               <p className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-light text-center leading-relaxed tracking-wide drop-shadow-2xl">
                 <span className="text-orange-200 drop-shadow-2xl font-medium">
-                  Real change begins with
+                  Small hands can spark
                 </span>
                 <br />
                 <span className="text-white font-bold drop-shadow-2xl filter brightness-125">
-                  simple acts of{" "}
+                  big hope.
+                  Step in,{" "}
                 </span>
                 <span className="text-transparent bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400 bg-clip-text font-extrabold drop-shadow-2xl filter brightness-110">
-                  help
+                  lift someone.
                 </span>
                 <span className="text-orange-200 drop-shadow-2xl font-medium">
                   .
@@ -52,7 +53,7 @@ const HeroSection = ({ onLearnMore }) => {
                   Join the{" "}
                 </span>
                 <span className="text-transparent bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400 bg-clip-text font-extrabold drop-shadow-2xl filter brightness-110">
-                  Sync
+                  Hive
                 </span>
                 <span className="text-orange-200 drop-shadow-2xl font-medium">
                   .

@@ -16,17 +16,17 @@ import { app, server } from "./socket.js";
 connectDB();
 app.use(
   cors({
-    origin: ["https://help-sync.vercel.app"],
+    origin: ["http://localhost:5173"],
     credentials: true,
   })
 );
 
 app.get("/", (req, res) => {
-  res.send("Help Sync!");
+  res.send("Help Hive!");
 });
 
 app.get("/api", (req, res) => {
-  res.send("This is Help Sync API!");
+  res.send("This is Help Hive API!");
 });
 
 app.use(cookieParser());

@@ -73,16 +73,16 @@ const AuthPage = () => {
         />
         {/* Dark overlay for readability */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-gray-900/85 to-black/90"></div>
-        {/* Colored overlay for theme consistency */}
-        <div className="absolute inset-0 bg-gradient-to-tr from-red-900/40 via-transparent to-orange-900/30"></div>
+        {/* Colored overlay for theme consistency - teal/cyan */}
+        <div className="absolute inset-0 bg-gradient-to-tr from-teal-900/30 via-transparent to-cyan-900/30"></div>
       </div>
 
       {/* Animated Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-red-500/15 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 right-1/3 w-32 h-32 bg-yellow-500/15 rounded-full blur-2xl animate-bounce"></div>
-        <div className="absolute top-3/4 left-1/3 w-48 h-48 bg-pink-500/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-teal-500/12 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 right-1/3 w-32 h-32 bg-sky-500/12 rounded-full blur-2xl animate-bounce"></div>
+        <div className="absolute top-3/4 left-1/3 w-48 h-48 bg-violet-500/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       <div className="relative w-full max-w-6xl mx-auto">
@@ -90,19 +90,19 @@ const AuthPage = () => {
           {/* Left Side - Branding & Info */}
           <div className="text-center lg:text-left space-y-6 order-2 lg:order-1 px-4">
             {/* Logo Section */}
-            <div className="flex items-center justify-center lg:justify-start space-x-3">
+              <div className="flex items-center justify-center lg:justify-start space-x-3">
               <div className="relative">
                 <img
                   src="/hivelogo.png"
                   alt="HelpHive Logo"
                   className="w-16 h-16 lg:w-20 lg:h-20 drop-shadow-2xl"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-orange-400/20 rounded-full blur-xl"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/20 to-teal-400/20 rounded-full blur-xl"></div>
               </div>
               <h1 className="text-4xl lg:text-5xl font-bold text-white drop-shadow-2xl">
                 Help
-                <span className="text-transparent bg-gradient-to-r from-yellow-400 via-orange-400 to-yellow-500 bg-clip-text">
-                  Sync
+                  <span className="text-transparent bg-gradient-to-r from-cyan-400 via-teal-400 to-sky-400 bg-clip-text">
+                  Hive
                 </span>
               </h1>
             </div>
@@ -113,14 +113,14 @@ const AuthPage = () => {
                 {isLogin ? (
                   <>
                     <span className="block">Welcome Back to</span>
-                    <span className="block text-transparent bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text">
+                    <span className="block text-transparent bg-gradient-to-r from-cyan-400 via-teal-400 to-sky-400 bg-clip-text">
                       Community Help
                     </span>
                   </>
                 ) : (
                   <>
                     <span className="block">Join Our Amazing</span>
-                    <span className="block text-transparent bg-gradient-to-r from-red-400 via-orange-400 to-yellow-400 bg-clip-text">
+                    <span className="block text-transparent bg-gradient-to-r from-cyan-400 via-teal-400 to-sky-400 bg-clip-text">
                       Community Help
                     </span>
                   </>
@@ -134,21 +134,21 @@ const AuthPage = () => {
             </div>
 
             {/* Features List */}
-            <div className="space-y-3">
+              <div className="space-y-3">
               <div className="flex items-center space-x-3 text-gray-300">
-                <div className="w-2 h-2 bg-gradient-to-r from-red-400 to-orange-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-gradient-to-r from-cyan-400 to-teal-400 rounded-full"></div>
                 <span className="text-lg lg:text-xl">
                   Connect with local community members
                 </span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
-                <div className="w-2 h-2 bg-gradient-to-r from-orange-400 to-yellow-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-gradient-to-r from-teal-400 to-sky-400 rounded-full"></div>
                 <span className="text-lg lg:text-xl">
                   Offer and receive help when you need it
                 </span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
-                <div className="w-2 h-2 bg-gradient-to-r from-yellow-400 to-red-400 rounded-full"></div>
+                <div className="w-2 h-2 bg-gradient-to-r from-sky-400 to-violet-400 rounded-full"></div>
                 <span className="text-lg lg:text-xl">
                   Build lasting relationships and trust
                 </span>
@@ -182,13 +182,13 @@ const AuthPage = () => {
             <div className="relative bg-white/5 backdrop-blur-2xl rounded-2xl shadow-2xl border border-white/10 p-6 lg:p-8 max-w-md mx-auto overflow-hidden">
               {/* Form background pattern */}
               <div className="absolute inset-0 opacity-30">
-                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-red-500/20 via-orange-500/10 to-yellow-500/20 rounded-2xl"></div>
-                <div className="absolute top-4 right-4 w-32 h-32 bg-gradient-to-br from-pink-400/20 to-purple-400/20 rounded-full blur-2xl"></div>
-                <div className="absolute bottom-4 left-4 w-24 h-24 bg-gradient-to-tr from-blue-400/20 to-cyan-400/20 rounded-full blur-xl"></div>
+                <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-teal-500/20 via-cyan-500/10 to-sky-500/20 rounded-2xl"></div>
+                <div className="absolute top-4 right-4 w-32 h-32 bg-gradient-to-br from-violet-400/20 to-indigo-400/20 rounded-full blur-2xl"></div>
+                <div className="absolute bottom-4 left-4 w-24 h-24 bg-gradient-to-tr from-cyan-400/20 to-sky-400/20 rounded-full blur-xl"></div>
               </div>
 
               {/* Form Header */}
-              <div className="relative z-10 text-center mb-6">
+                <div className="relative z-10 text-center mb-6">
                 <h3 className="text-xl lg:text-2xl font-bold text-white mb-2 drop-shadow-lg">
                   {isLogin ? "Sign In" : "Create Account"}
                 </h3>
@@ -205,7 +205,7 @@ const AuthPage = () => {
                   onClick={() => setIsLogin(true)}
                   className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all duration-300 cursor-pointer ${
                     isLogin
-                      ? "bg-gradient-to-r from-red-500 to-orange-500 text-white shadow-lg shadow-red-500/25"
+                      ? "bg-gradient-to-r from-sky-500 to-teal-500 text-white shadow-lg shadow-sky-500/25"
                       : "text-gray-300 hover:text-white hover:bg-white/10"
                   }`}
                 >
@@ -215,7 +215,7 @@ const AuthPage = () => {
                   onClick={() => setIsLogin(false)}
                   className={`flex-1 py-2 px-4 rounded-md text-sm font-medium transition-all duration-300 cursor-pointer ${
                     !isLogin
-                      ? "bg-gradient-to-r from-red-500 to-orange-500 text-white shadow-lg shadow-red-500/25"
+                      ? "bg-gradient-to-r from-cyan-500 to-teal-500 text-white shadow-lg shadow-cyan-500/25"
                       : "text-gray-300 hover:text-white hover:bg-white/10"
                   }`}
                 >
@@ -246,7 +246,7 @@ const AuthPage = () => {
                           name="name"
                           value={formData.name}
                           onChange={handleInputChange}
-                          className="w-full px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-300 focus:border-orange-400 focus:ring-2 focus:ring-orange-400/30 focus:outline-none transition-all duration-200 hover:bg-white/15 shadow-lg"
+                          className="w-full px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-300 focus:border-teal-400 focus:ring-2 focus:ring-teal-400/30 focus:outline-none transition-all duration-200 hover:bg-white/15 shadow-lg"
                           placeholder="Enter your full name"
                           required={!isLogin}
                         />
@@ -271,7 +271,7 @@ const AuthPage = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-300 focus:border-orange-400 focus:ring-2 focus:ring-orange-400/30 focus:outline-none transition-all duration-200 hover:bg-white/15 shadow-lg"
+                      className="w-full px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-300 focus:border-teal-400 focus:ring-2 focus:ring-teal-400/30 focus:outline-none transition-all duration-200 hover:bg-white/15 shadow-lg"
                       placeholder="Enter your email address"
                       required
                     />
@@ -294,7 +294,7 @@ const AuthPage = () => {
                       name="password"
                       value={formData.password}
                       onChange={handleInputChange}
-                      className="w-full px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-300 focus:border-orange-400 focus:ring-2 focus:ring-orange-400/30 focus:outline-none transition-all duration-200 hover:bg-white/15 shadow-lg"
+                      className="w-full px-3 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg text-white placeholder-gray-300 focus:border-teal-400 focus:ring-2 focus:ring-teal-400/30 focus:outline-none transition-all duration-200 hover:bg-white/15 shadow-lg"
                       placeholder="Enter your password"
                       required
                     />
@@ -305,14 +305,14 @@ const AuthPage = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full mt-6 relative overflow-hidden bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 hover:from-red-600 hover:via-orange-600 hover:to-yellow-600 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-orange-400/50 shadow-2xl hover:shadow-orange-500/25 group cursor-pointer"
+                  className="w-full mt-6 relative overflow-hidden bg-gradient-to-r from-cyan-500 via-teal-500 to-sky-500 hover:from-cyan-600 hover:via-teal-600 hover:to-sky-600 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-teal-400/50 shadow-2xl hover:shadow-teal-500/25 group cursor-pointer"
                 >
                   <span className="relative z-10">
                     {isLogin
                       ? "Sign In to HelpHive"
                       : "Join HelpHive Community"}
                   </span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-pink-400/30 to-purple-400/30 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-violet-400/30 to-indigo-400/30 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
                   <div className="absolute inset-0 bg-white/10 transform scale-y-0 group-hover:scale-y-100 transition-transform duration-300 origin-bottom"></div>
                 </button>
 
@@ -326,7 +326,7 @@ const AuthPage = () => {
                   <button
                     type="button"
                     onClick={toggleMode}
-                    className="text-transparent bg-gradient-to-r from-orange-400 via-yellow-400 to-pink-400 bg-clip-text hover:from-orange-300 hover:via-yellow-300 hover:to-pink-300 font-medium transition-all duration-200 hover:scale-105 drop-shadow-lg text-sm cursor-pointer"
+                    className="text-transparent bg-gradient-to-r from-cyan-400 via-teal-400 to-sky-400 bg-clip-text hover:from-cyan-300 hover:via-teal-300 hover:to-sky-300 font-medium transition-all duration-200 hover:scale-105 drop-shadow-lg text-sm cursor-pointer"
                   >
                     {isLogin ? "Create an account" : "Sign in instead"}
                   </button>

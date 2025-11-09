@@ -35,7 +35,7 @@ const AboutUs = () => {
                 About{" "}
               </span>
               <span className="text-transparent bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400 bg-clip-text font-extrabold drop-shadow-2xl filter brightness-110">
-                HelpSync
+                HelpHive
               </span>
             </h1>
 
@@ -43,7 +43,7 @@ const AboutUs = () => {
             <div className="max-w-4xl mx-auto space-y-4">
               <p className="text-xl md:text-2xl lg:text-3xl text-center leading-relaxed tracking-wide drop-shadow-2xl">
                 <span className="text-orange-200 font-medium">
-                  At HelpSync, we believe that{" "}
+                  At HelpHive, we believe that{" "}
                 </span>
                 <span className="text-transparent bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400 bg-clip-text font-extrabold">
                   helping is healing
@@ -60,7 +60,7 @@ const AboutUs = () => {
               </p>
 
               <p className="text-base md:text-lg lg:text-xl text-white font-light tracking-wide drop-shadow-lg leading-relaxed">
-                Whether you need assistance or want to help others, HelpSync
+                Whether you need assistance or want to help others, HelpHive
                 makes community support{" "}
                 <span className="text-transparent bg-gradient-to-r from-yellow-300 via-orange-400 to-red-400 bg-clip-text font-semibold">
                   accessible, dignified, and meaningful
@@ -165,7 +165,7 @@ const AboutUs = () => {
                 </span>
               </h2>
               <p className="text-lg md:text-xl text-gray-900 max-w-3xl mx-auto leading-relaxed font-light">
-                HelpSync connects kind-hearted individuals through{" "}
+                HelpHive connects kind-hearted individuals through{" "}
                 <span className="text-transparent bg-gradient-to-r from-yellow-700 to-orange-700 bg-clip-text font-semibold">
                   modern technology and community-first design
                 </span>
@@ -269,7 +269,7 @@ const AboutUs = () => {
                 </h2>
                 <div className="space-y-6">
                   <p className="text-base md:text-lg text-gray-900 leading-relaxed font-light">
-                    HelpSync began as a simple observation: in our increasingly
+                    HelpHive began as a simple observation: in our increasingly
                     digital world, we were losing the{" "}
                     <span className="text-transparent bg-gradient-to-r from-yellow-700 to-orange-700 bg-clip-text font-semibold">
                       natural connections that make communities strong
@@ -341,7 +341,7 @@ const AboutUs = () => {
                   <span className="text-transparent bg-gradient-to-r from-yellow-700 to-orange-700 bg-clip-text font-semibold">
                     humanity over hierarchy
                   </span>
-                  . Whether you want to give, receive, or simply belong—HelpSync
+                  . Whether you want to give, receive, or simply belong—HelpHive
                   is your space.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
