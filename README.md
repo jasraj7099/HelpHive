@@ -93,8 +93,6 @@ Backend runs on **[http://localhost:5000](http://localhost:5000)**
 * Frontend: [Vercel](https://vercel.com/)
 * Backend: \[Render / Railway / Heroku]
 
-(Currently deployed at: 🔗 [help-hive.vercel.app](help-hive-zeta.vercel.app/))
-
 ---
 
 ## 🤝 Contributing
@@ -102,5 +100,6 @@ Backend runs on **[http://localhost:5000](http://localhost:5000)**
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
 "# HelpHive" 
+
 
 
