@@ -37,7 +37,7 @@ It is designed to streamline help and support requests, allowing users to easily
 ## 📂 Project Structure
 
 ```
-HelpSync/
+HelpHive/
 │── backend/        # Express + MongoDB (API & authentication)
 │── frontend/       # React + Tailwind (UI)
 │── README.md       # Project documentation
@@ -50,8 +50,8 @@ HelpSync/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Sunny5130/HelpSync.git
-cd HelpSync
+git clone https://github.com/Sunny5130/HelpHive.git
+cd HelpHive
 ```
 
 ### 2️⃣ Setup Backend
@@ -93,7 +93,7 @@ Backend runs on **[http://localhost:5000](http://localhost:5000)**
 * Frontend: [Vercel](https://vercel.com/)
 * Backend: \[Render / Railway / Heroku]
 
-(Currently deployed at: 🔗 [help-sync.vercel.app](https://help-sync.vercel.app))
+(Currently deployed at: 🔗 [help-hive.vercel.app](https://help-hive.vercel.app))
 
 ---
 
@@ -102,3 +102,4 @@ Backend runs on **[http://localhost:5000](http://localhost:5000)**
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
 "# HelpHive" 
+
