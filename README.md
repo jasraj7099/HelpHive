@@ -50,7 +50,7 @@ HelpHive/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/Sunny5130/HelpHive.git
+git clone https://github.com/jasraj7099/HelpHive.git
 cd HelpHive
 ```
 
@@ -100,6 +100,7 @@ Backend runs on **[http://localhost:5000](http://localhost:5000)**
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repo and submit a pull request.
 "# HelpHive" 
+
 
 
 
